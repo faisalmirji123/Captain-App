@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "956376408273",
+    "project_id": "kbl-captain",
+    "storage_bucket": "kbl-captain.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:956376408273:android:27d5e637869361364265f0",
+        "android_client_info": {
+          "package_name": "kbl.captain.com"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCx7e3lipiOw97hXIahuMfGOpdzXXXdmwU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
