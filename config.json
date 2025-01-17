@@ -90,12 +90,6 @@
             "name": "android.permission.FOREGROUND_SERVICE",
             "platform": "android",
             "required": false
-        },
-        {
-            "title": "Network State",
-            "name": "android.permission.ACCESS_NETWORK_STATE",
-            "platform": "android",
-            "required": false
         }
     ],
     "capabilities": {
@@ -140,8 +134,8 @@
             "enabled": false
         }
     },
-    "appVersion": "4.7.1",
+    "appVersion": "4.9.0",
     "buildNumber": 122,
-    "runtimeUrl": "https://captainappdev.kbl.co.in",
+    "runtimeUrl": "https://captainappdev.kbl.co.in/",
     "hermesEnabled": false
 }
