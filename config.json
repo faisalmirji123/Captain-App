@@ -134,8 +134,8 @@
             "enabled": false
         }
     },
-    "appVersion": "5.0.0",
-    "buildNumber": 123,
+    "appVersion": "5.0.1",
+    "buildNumber": 124,
     "runtimeUrl": "https://captainappdev.kbl.co.in/",
     "hermesEnabled": false
 }
