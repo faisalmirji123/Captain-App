@@ -134,8 +134,8 @@
             "enabled": false
         }
     },
-    "appVersion": "6.0.1",
+    "appVersion": "7.0.0",
     "buildNumber": 124,
-    "runtimeUrl": "https://captainappdev.kbl.co.in/",
+    "runtimeUrl": "https://kblapps.kirloskarpumps.com",
     "hermesEnabled": false
 }
