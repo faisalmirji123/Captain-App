@@ -44,10 +44,12 @@ def common_pods
   # These pods are added by Native Builder UI (NBUI) and should not be modified under any circumstances.
   # Do not make any changes to the pods in this section.
   # REQUIRED PODS START
-
-  # Required MendixNative dependency
+# Required MendixNative dependency
   pod 'SSZipArchive'
-
+  # Required for Push notifications
+  pod 'Firebase', :modular_headers => true
+  pod 'FirebaseCore', :modular_headers => true
+  pod 'GoogleUtilities', :modular_headers => true
   # REQUIRED PODS END
 end
 

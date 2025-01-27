@@ -1,8 +1,10 @@
 PRODUCT_BUNDLE_IDENTIFIER = $(BUNDLE_IDENTIFIER)$(BUNDLE_IDENTIFIER_APPEND)
 
-BUNDLE_DISPLAY_NAME = NativeTemplate
-BUNDLE_IDENTIFIER = com.mendix.native.template
+BUNDLE_DISPLAY_NAME = KBL Captain
+BUNDLE_IDENTIFIER = kbl.captain.com
 
-RUNTIME_URL = http:\/\/localhost:8080
+RUNTIME_URL = https:\/\/captainapp.kirloskarpumps.com/
 
-PRODUCT_NAME = nativeTemplate
+PRODUCT_NAME = KBLCaptain
+
+HERMES_ENABLED = NO
