@@ -116,8 +116,8 @@
             "enabled": false
         }
     },
-    "appVersion": "5.0.1",
-    "buildNumber": 127,
+    "appVersion": "5.0.2",
+    "buildNumber": 128,
     "runtimeUrl": "https://captainapp.kirloskarpumps.com/",
     "hermesEnabled": false
 }
