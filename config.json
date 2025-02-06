@@ -72,6 +72,12 @@
             "name": "android.permission.FOREGROUND_SERVICE",
             "platform": "android",
             "required": false
+        },
+        {
+            "title": "Read External Storage",
+            "name": "android.permission.READ_EXTERNAL_STORAGE",
+            "platform": "android",
+            "required": false
         }
     ],
     "capabilities": {
@@ -116,8 +122,8 @@
             "enabled": false
         }
     },
-    "appVersion": "5.0.2",
-    "buildNumber": 129,
+    "appVersion": "5.0.3",
+    "buildNumber": 130,
     "runtimeUrl": "https://captainapp.kirloskarpumps.com/",
     "hermesEnabled": false
 }
