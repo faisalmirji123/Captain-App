@@ -78,6 +78,12 @@
             "name": "android.permission.READ_EXTERNAL_STORAGE",
             "platform": "android",
             "required": false
+        },
+        {
+            "title": "Write External Storage",
+            "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+            "platform": "android",
+            "required": false
         }
     ],
     "capabilities": {
@@ -123,7 +129,7 @@
         }
     },
     "appVersion": "5.0.3",
-    "buildNumber": 130,
-    "runtimeUrl": "https://captainapp.kirloskarpumps.com/",
+    "buildNumber": 122,
+    "runtimeUrl": "https://captainappdev.kbl.co.in",
     "hermesEnabled": false
 }
