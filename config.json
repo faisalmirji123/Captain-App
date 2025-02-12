@@ -72,42 +72,6 @@
             "name": "android.permission.FOREGROUND_SERVICE",
             "platform": "android",
             "required": false
-        },
-        {
-            "title": "Read External Storage",
-            "name": "android.permission.READ_EXTERNAL_STORAGE",
-            "platform": "android",
-            "required": true
-        },
-        {
-            "title": "Access Media Location",
-            "name": "android.permission.ACCESS_MEDIA_LOCATION",
-            "platform": "android",
-            "required": false
-        },
-        {
-            "title": "Read Media Images",
-            "name": "android.permission.READ_MEDIA_IMAGES",
-            "platform": "android",
-            "required": true
-        },
-        {
-            "title": "Read Media Audio",
-            "name": "android.permission.READ_MEDIA_AUDIO",
-            "platform": "android",
-            "required": false
-        },
-        {
-            "title": "Read Media Video",
-            "name": "android.permission.READ_MEDIA_VIDEO",
-            "platform": "android",
-            "required": false
-        },
-        {
-            "title": "Write External Storage",
-            "name": "android.permission.WRITE_EXTERNAL_STORAGE",
-            "platform": "android",
-            "required": false
         }
     ],
     "capabilities": {
@@ -152,8 +116,8 @@
             "enabled": false
         }
     },
-    "appVersion": "5.0.3",
-    "buildNumber": 130,
-    "runtimeUrl": "https://captainapp.kirloskarpumps.com/",
+    "appVersion": "6.0.0",
+    "buildNumber": 122,
+    "runtimeUrl": "https://captainappdev.kbl.co.in/",
     "hermesEnabled": false
 }
