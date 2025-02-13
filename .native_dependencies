@@ -17,8 +17,6 @@
     "@expo/config-plugins": "5.0.4",
     "@react-native-community/async-storage": "1.12.1",
     "jail-monkey": "2.6.0",
-    "@react-native-community/geolocation": "2.0.2",
-    "react-native-geolocation-service": "5.2.0",
     "react-native-localize": "1.4.2",
     "react-native-file-viewer": "2.1.5"
 }
