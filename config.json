@@ -142,6 +142,6 @@
     },
     "appVersion": "9.0.0",
     "buildNumber": 122,
-    "runtimeUrl": "http://192.168.1.7:8081/",
+    "runtimeUrl": "https://captainappdev.kbl.co.in/",
     "hermesEnabled": false
 }
