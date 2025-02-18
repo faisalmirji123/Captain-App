@@ -86,12 +86,6 @@
             "required": false
         },
         {
-            "title": "Background Location",
-            "name": "android.permission.ACCESS_BACKGROUND_LOCATION",
-            "platform": "android",
-            "required": false
-        },
-        {
             "title": "Coarse Location",
             "name": "android.permission.ACCESS_COARSE_LOCATION",
             "platform": "android",
@@ -140,8 +134,8 @@
             "enabled": false
         }
     },
-    "appVersion": "8.0.0",
+    "appVersion": "7.0.0",
     "buildNumber": 122,
-    "runtimeUrl": "http://192.168.1.7:8081/",
+    "runtimeUrl": "https://captainappdev.kbl.co.in/",
     "hermesEnabled": false
 }
