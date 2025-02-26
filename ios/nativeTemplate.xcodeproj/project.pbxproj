@@ -45,6 +45,30 @@
 		EB59215B23BFA1F5001D6155 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB59215A23BFA1F5001D6155 /* main.m */; };
 		EB59215C23BFA1F5001D6155 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB59215A23BFA1F5001D6155 /* main.m */; };
 		ED297163215061F000B7C4FE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED297162215061F000B7C4FE /* JavaScriptCore.framework */; };
+		DE04FB6661C644AE877FBC90 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FCAD7F6D343847838DBDA171 /* GoogleService-Info.plist */; };
+		00CC9D653607492B8D51172A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FCAD7F6D343847838DBDA171 /* GoogleService-Info.plist */; };
+		299A4E4D7D1240B792C500B4 /* Swiss721BT-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A161883C59AA41D9BB939B63 /* Swiss721BT-Bold.ttf */; };
+		29076C79C796411FAD2FD7B5 /* Swiss721BT-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A161883C59AA41D9BB939B63 /* Swiss721BT-Bold.ttf */; };
+		1BC0CC382C4C4C8D8D3D3297 /* Swiss721BT-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 219E03470505423F8DEC0D6A /* Swiss721BT-BoldItalic.ttf */; };
+		BBF3CB94DF5A46608E56814C /* Swiss721BT-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 219E03470505423F8DEC0D6A /* Swiss721BT-BoldItalic.ttf */; };
+		32C07D3BB39F45B8B0D4B82E /* Swiss721BT-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDCCFC783A3F4C709E984027 /* Swiss721BT-Heavy.ttf */; };
+		E77583DE57DC4B93B6161C99 /* Swiss721BT-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDCCFC783A3F4C709E984027 /* Swiss721BT-Heavy.ttf */; };
+		75C0F37CD4184F209A4AF47C /* Swiss721BT-HeavyItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 185338001CC34684A1B2B1AE /* Swiss721BT-HeavyItalic.ttf */; };
+		88C882716809483BB29A6934 /* Swiss721BT-HeavyItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 185338001CC34684A1B2B1AE /* Swiss721BT-HeavyItalic.ttf */; };
+		9477DAFD4F9B4631B85EC30C /* Swiss721BT-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 385793C138B9444E91E6EC50 /* Swiss721BT-Italic.ttf */; };
+		437EBA5EC2A645ABA918BCEB /* Swiss721BT-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 385793C138B9444E91E6EC50 /* Swiss721BT-Italic.ttf */; };
+		4EF5E67E942644D1BF90957F /* Swiss721BT-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 309078A2BECE4987BBA86BF7 /* Swiss721BT-Light.ttf */; };
+		97307F0CCD834B36888A5580 /* Swiss721BT-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 309078A2BECE4987BBA86BF7 /* Swiss721BT-Light.ttf */; };
+		6922502530C84CCD95BFC273 /* Swiss721BT-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D63933A8CBC4C4790FA5841 /* Swiss721BT-LightItalic.ttf */; };
+		7ED1F10A331A44C3B5AA1D51 /* Swiss721BT-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D63933A8CBC4C4790FA5841 /* Swiss721BT-LightItalic.ttf */; };
+		4DE2777351F94019BBEF9525 /* Swiss721BT-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 86746796B9554812BC221C45 /* Swiss721BT-Medium.ttf */; };
+		77944396D63A4BF5BF415303 /* Swiss721BT-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 86746796B9554812BC221C45 /* Swiss721BT-Medium.ttf */; };
+		19C6A4FA8E08449B8DFDDDF8 /* Swiss721BT-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB3CD417271D4F9A85F00722 /* Swiss721BT-MediumItalic.ttf */; };
+		3C9A912B7E744C0AAF01DFF8 /* Swiss721BT-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB3CD417271D4F9A85F00722 /* Swiss721BT-MediumItalic.ttf */; };
+		F82BB2B667F443D7B41416D5 /* Swiss721BT-Roman.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A1180AA107C42329C8AFE7B /* Swiss721BT-Roman.ttf */; };
+		41426D0539FE47DA96AFCBF4 /* Swiss721BT-Roman.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A1180AA107C42329C8AFE7B /* Swiss721BT-Roman.ttf */; };
+		6EF09FF9D6754C98A62A3E4F /* native_dependencies.json in Resources */ = {isa = PBXBuildFile; fileRef = 0441643B49EB4A4A902A6F48 /* native_dependencies.json */; };
+		E818381BBF184C619B807FE9 /* native_dependencies.json in Resources */ = {isa = PBXBuildFile; fileRef = 0441643B49EB4A4A902A6F48 /* native_dependencies.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -100,6 +124,18 @@
 		EBC80A6022DF4205007E5F3D /* config.debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = config.debug.xcconfig; sourceTree = "<group>"; };
 		EBC80A6122DF42DF007E5F3D /* config.release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = config.release.xcconfig; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		FCAD7F6D343847838DBDA171 /* GoogleService-Info.plist */ = {isa = PBXFileReference; name = "GoogleService-Info.plist"; path = "GoogleService-Info.plist"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = text.plist.xml; explicitFileType = undefined; includeInIndex = 0; };
+		A161883C59AA41D9BB939B63 /* Swiss721BT-Bold.ttf */ = {isa = PBXFileReference; name = "Swiss721BT-Bold.ttf"; path = "Swiss721BT-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		219E03470505423F8DEC0D6A /* Swiss721BT-BoldItalic.ttf */ = {isa = PBXFileReference; name = "Swiss721BT-BoldItalic.ttf"; path = "Swiss721BT-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BDCCFC783A3F4C709E984027 /* Swiss721BT-Heavy.ttf */ = {isa = PBXFileReference; name = "Swiss721BT-Heavy.ttf"; path = "Swiss721BT-Heavy.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		185338001CC34684A1B2B1AE /* Swiss721BT-HeavyItalic.ttf */ = {isa = PBXFileReference; name = "Swiss721BT-HeavyItalic.ttf"; path = "Swiss721BT-HeavyItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		385793C138B9444E91E6EC50 /* Swiss721BT-Italic.ttf */ = {isa = PBXFileReference; name = "Swiss721BT-Italic.ttf"; path = "Swiss721BT-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		309078A2BECE4987BBA86BF7 /* Swiss721BT-Light.ttf */ = {isa = PBXFileReference; name = "Swiss721BT-Light.ttf"; path = "Swiss721BT-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2D63933A8CBC4C4790FA5841 /* Swiss721BT-LightItalic.ttf */ = {isa = PBXFileReference; name = "Swiss721BT-LightItalic.ttf"; path = "Swiss721BT-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		86746796B9554812BC221C45 /* Swiss721BT-Medium.ttf */ = {isa = PBXFileReference; name = "Swiss721BT-Medium.ttf"; path = "Swiss721BT-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CB3CD417271D4F9A85F00722 /* Swiss721BT-MediumItalic.ttf */ = {isa = PBXFileReference; name = "Swiss721BT-MediumItalic.ttf"; path = "Swiss721BT-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3A1180AA107C42329C8AFE7B /* Swiss721BT-Roman.ttf */ = {isa = PBXFileReference; name = "Swiss721BT-Roman.ttf"; path = "Swiss721BT-Roman.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0441643B49EB4A4A902A6F48 /* native_dependencies.json */ = {isa = PBXFileReference; name = "native_dependencies.json"; path = "native_dependencies.json"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +181,8 @@
 				1AAE158823C5FEFC00F855F4 /* SwiftInterop.swift */,
 				2C887FD924B88A0E0003DC53 /* LaunchScreen.storyboard */,
 				2C005A7823D5B1E200003E29 /* nativeTemplate.entitlements */,
+				FCAD7F6D343847838DBDA171 /* GoogleService-Info.plist */,
+				0441643B49EB4A4A902A6F48 /* native_dependencies.json */,
 			);
 			name = NativeTemplate;
 			sourceTree = "<group>";
@@ -261,6 +299,16 @@
 			isa = PBXGroup;
 			children = (
 				EB55620B22E0755000E19C26 /* glyphicons-halflings-regular.ttf */,
+				A161883C59AA41D9BB939B63 /* Swiss721BT-Bold.ttf */,
+				219E03470505423F8DEC0D6A /* Swiss721BT-BoldItalic.ttf */,
+				BDCCFC783A3F4C709E984027 /* Swiss721BT-Heavy.ttf */,
+				185338001CC34684A1B2B1AE /* Swiss721BT-HeavyItalic.ttf */,
+				385793C138B9444E91E6EC50 /* Swiss721BT-Italic.ttf */,
+				309078A2BECE4987BBA86BF7 /* Swiss721BT-Light.ttf */,
+				2D63933A8CBC4C4790FA5841 /* Swiss721BT-LightItalic.ttf */,
+				86746796B9554812BC221C45 /* Swiss721BT-Medium.ttf */,
+				CB3CD417271D4F9A85F00722 /* Swiss721BT-MediumItalic.ttf */,
+				3A1180AA107C42329C8AFE7B /* Swiss721BT-Roman.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -368,6 +416,18 @@
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				EB55620C22E0755000E19C26 /* glyphicons-halflings-regular.ttf in Resources */,
 				1A0B3AF323990C2400388BF7 /* config.xcconfig in Resources */,
+				DE04FB6661C644AE877FBC90 /* GoogleService-Info.plist in Resources */,
+				299A4E4D7D1240B792C500B4 /* Swiss721BT-Bold.ttf in Resources */,
+				1BC0CC382C4C4C8D8D3D3297 /* Swiss721BT-BoldItalic.ttf in Resources */,
+				32C07D3BB39F45B8B0D4B82E /* Swiss721BT-Heavy.ttf in Resources */,
+				75C0F37CD4184F209A4AF47C /* Swiss721BT-HeavyItalic.ttf in Resources */,
+				9477DAFD4F9B4631B85EC30C /* Swiss721BT-Italic.ttf in Resources */,
+				4EF5E67E942644D1BF90957F /* Swiss721BT-Light.ttf in Resources */,
+				6922502530C84CCD95BFC273 /* Swiss721BT-LightItalic.ttf in Resources */,
+				4DE2777351F94019BBEF9525 /* Swiss721BT-Medium.ttf in Resources */,
+				19C6A4FA8E08449B8DFDDDF8 /* Swiss721BT-MediumItalic.ttf in Resources */,
+				F82BB2B667F443D7B41416D5 /* Swiss721BT-Roman.ttf in Resources */,
+				6EF09FF9D6754C98A62A3E4F /* native_dependencies.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,6 +443,18 @@
 				1A0B3AF12399095C00388BF7 /* config.xcconfig in Resources */,
 				1A0B3AEA2398185600388BF7 /* config.debug.xcconfig in Resources */,
 				1A0B3A9C2397DA2300388BF7 /* LaunchApp.storyboard in Resources */,
+				00CC9D653607492B8D51172A /* GoogleService-Info.plist in Resources */,
+				29076C79C796411FAD2FD7B5 /* Swiss721BT-Bold.ttf in Resources */,
+				BBF3CB94DF5A46608E56814C /* Swiss721BT-BoldItalic.ttf in Resources */,
+				E77583DE57DC4B93B6161C99 /* Swiss721BT-Heavy.ttf in Resources */,
+				88C882716809483BB29A6934 /* Swiss721BT-HeavyItalic.ttf in Resources */,
+				437EBA5EC2A645ABA918BCEB /* Swiss721BT-Italic.ttf in Resources */,
+				97307F0CCD834B36888A5580 /* Swiss721BT-Light.ttf in Resources */,
+				7ED1F10A331A44C3B5AA1D51 /* Swiss721BT-LightItalic.ttf in Resources */,
+				77944396D63A4BF5BF415303 /* Swiss721BT-Medium.ttf in Resources */,
+				3C9A912B7E744C0AAF01DFF8 /* Swiss721BT-MediumItalic.ttf in Resources */,
+				41426D0539FE47DA96AFCBF4 /* Swiss721BT-Roman.ttf in Resources */,
+				E818381BBF184C619B807FE9 /* native_dependencies.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -669,7 +741,7 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "nativeTemplate-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -748,7 +820,7 @@
 				SWIFT_INCLUDE_PATHS = "$(inherited) ${PROJECT_DIR} ${SRCROOT}/../node_modules/@mendix/native/ios";
 				SWIFT_OBJC_BRIDGING_HEADER = "nativeTemplate-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
@@ -801,7 +873,7 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "nativeTemplate-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1";
 			};
 			name = Debug;
 		};
@@ -853,7 +925,7 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "nativeTemplate-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1";
 			};
 			name = Release;
 		};
@@ -908,7 +980,7 @@
 				);
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = ReleaseDevApp;
@@ -987,7 +1059,7 @@
 				SWIFT_INCLUDE_PATHS = "$(inherited) ${PROJECT_DIR} ${SRCROOT}/../node_modules/@mendix/native/ios";
 				SWIFT_OBJC_BRIDGING_HEADER = "nativeTemplate-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = ReleaseDevApp;
@@ -1040,7 +1112,7 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "nativeTemplate-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1";
 			};
 			name = ReleaseDevApp;
 		};
@@ -1103,7 +1175,7 @@
 				);
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1";
 			};
 			name = Debug;
 		};
@@ -1158,7 +1230,7 @@
 				);
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
