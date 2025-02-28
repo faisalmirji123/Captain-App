@@ -140,8 +140,8 @@
             "enabled": false
         }
     },
-    "appVersion": "9.0.0",
+    "appVersion": "24.0.0",
     "buildNumber": 122,
-    "runtimeUrl": "https://10.31.103.140:8081/",
+    "runtimeUrl": "http://192.168.1.2:8081/",
     "hermesEnabled": false
 }
