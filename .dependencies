@@ -1,9 +1,9 @@
 {
     "@react-native-firebase/app": "17.3.0",
     "@react-native-firebase/messaging": "17.3.0",
-    "@react-native-community/netinfo": "5.9.7",
     "react-native-otp-verify": "1.1.8",
     "react-native-background-timer": "2.4.1",
+    "@react-native-community/netinfo": "5.9.7",
     "react-native-webview": "11.26.1",
     "react-native-camera": "3.40.0",
     "react-native-document-picker": "9.3.1",
