@@ -140,8 +140,8 @@
             "enabled": false
         }
     },
-    "appVersion": "29.0.0",
+    "appVersion": "40.0.0",
     "buildNumber": 122,
-    "runtimeUrl": "http://172.20.10.2:8081/",
+    "runtimeUrl": "https://captainappdev.kbl.co.in/",
     "hermesEnabled": false
 }
