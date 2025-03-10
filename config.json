@@ -72,6 +72,30 @@
             "name": "android.permission.FOREGROUND_SERVICE",
             "platform": "android",
             "required": false
+        },
+        {
+            "title": "Read External Storage",
+            "name": "android.permission.READ_EXTERNAL_STORAGE",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "Fine Location",
+            "name": "android.permission.ACCESS_FINE_LOCATION",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "Coarse Location",
+            "name": "android.permission.ACCESS_COARSE_LOCATION",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "Background Location",
+            "name": "android.permission.ACCESS_BACKGROUND_LOCATION",
+            "platform": "android",
+            "required": false
         }
     ],
     "capabilities": {
@@ -116,8 +140,8 @@
             "enabled": false
         }
     },
-    "appVersion": "9.0.1",
+    "appVersion": "40.0.1",
     "buildNumber": 122,
-    "runtimeUrl": "https://captainappdev.kbl.co.in/",
+    "runtimeUrl": "http://192.168.1.19:8081/",
     "hermesEnabled": false
 }
