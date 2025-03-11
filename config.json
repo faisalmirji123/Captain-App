@@ -96,6 +96,12 @@
             "name": "android.permission.ACCESS_BACKGROUND_LOCATION",
             "platform": "android",
             "required": false
+        },
+        {
+            "title": "Prevent Screenshots",
+            "name": "android.permission.SECURE_FLAG",
+            "platform": "android",
+            "required": true
         }
     ],
     "capabilities": {
@@ -140,7 +146,7 @@
             "enabled": false
         }
     },
-    "appVersion": "7.0.0",
+    "appVersion": "21.0.0",
     "buildNumber": 122,
     "runtimeUrl": "https://captainappdev.kbl.co.in/",
     "hermesEnabled": false
