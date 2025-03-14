@@ -22,24 +22,6 @@
             "required": false
         },
         {
-            "title": "Fine Location",
-            "name": "android.permission.ACCESS_FINE_LOCATION",
-            "platform": "android",
-            "required": false
-        },
-        {
-            "title": "Coarse Location",
-            "name": "android.permission.ACCESS_COARSE_LOCATION",
-            "platform": "android",
-            "required": false
-        },
-        {
-            "title": "Background Location",
-            "name": "android.permission.ACCESS_BACKGROUND_LOCATION",
-            "platform": "android",
-            "required": false
-        },
-        {
             "title": "Location - When In Use Usage",
             "name": "NSLocationWhenInUseUsageDescription",
             "purpose": "To use that feature, the app needs access to your location.",
@@ -90,6 +72,30 @@
             "name": "android.permission.FOREGROUND_SERVICE",
             "platform": "android",
             "required": false
+        },
+        {
+            "title": "Read External Storage",
+            "name": "android.permission.READ_EXTERNAL_STORAGE",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "Fine Location",
+            "name": "android.permission.ACCESS_FINE_LOCATION",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "Coarse Location",
+            "name": "android.permission.ACCESS_COARSE_LOCATION",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "Background Location",
+            "name": "android.permission.ACCESS_BACKGROUND_LOCATION",
+            "platform": "android",
+            "required": false
         }
     ],
     "capabilities": {
@@ -136,6 +142,6 @@
     },
     "appVersion": "9.0.0",
     "buildNumber": 122,
-    "runtimeUrl": "http://172.20.10.2:8081/",
+    "runtimeUrl": "http://192.168.1.5:8081/",
     "hermesEnabled": false
 }
