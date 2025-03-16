@@ -134,7 +134,7 @@
             "enabled": false
         }
     },
-    "appVersion": "9.0.0",
+    "appVersion": "10.0.0",
     "buildNumber": 122,
     "runtimeUrl": "http://192.168.1.5:8081/",
     "hermesEnabled": false
