@@ -22,24 +22,6 @@
             "required": false
         },
         {
-            "title": "Fine Location",
-            "name": "android.permission.ACCESS_FINE_LOCATION",
-            "platform": "android",
-            "required": false
-        },
-        {
-            "title": "Coarse Location",
-            "name": "android.permission.ACCESS_COARSE_LOCATION",
-            "platform": "android",
-            "required": false
-        },
-        {
-            "title": "Background Location",
-            "name": "android.permission.ACCESS_BACKGROUND_LOCATION",
-            "platform": "android",
-            "required": false
-        },
-        {
             "title": "Location - When In Use Usage",
             "name": "NSLocationWhenInUseUsageDescription",
             "purpose": "To use that feature, the app needs access to your location.",
@@ -134,8 +116,8 @@
             "enabled": false
         }
     },
-    "appVersion": "9.0.0",
-    "buildNumber": 133,
+    "appVersion": "9.0.1",
+    "buildNumber": 122,
     "runtimeUrl": "https://captainappdev.kbl.co.in/",
     "hermesEnabled": false,
     "cookieEncryptionEnabled": false
