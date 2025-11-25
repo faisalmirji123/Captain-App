@@ -6,67 +6,197 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
-- We have upgraded Node.js version to v20.
-- [Android] We have replaced the MaxPermSize JVM parameter with MaxMetaspaceSize, as MaxPermSize is no longer available since Java 8.
+- We added a new property to gradle.properties for scanning QR codes.
 
-# [7.0.24] - 2025-01-15
+## Fixes
 
-- We have resolved an issue where remote JavaScript debugging failed in a custom-built Mendix Native Developer App, leading to crashes when enabling “Remote JS Debugging.” The problem was caused by Firebase services not being initialized properly during the build process. We have ensured that Firebase dependencies are now only included when explicitly required by the application.
+- We have upgraded `@mendix/native` to version 9.0.1
 
-# [7.0.23] - 2025-01-07
+## [14.0.0] - 2025-04-01
+
+## Improvements
+
+- We've upgraded the core React Native dependency to version 0.77.1 to enhance performance, stability, and compatibility across both Android and iOS platforms.
+
+## [13.0.1] - 2025-03-27
+
+## Fixes
+
+- We have applied the patch for @react-native-camera-roll to fix the saving picture issue.
+
+## [13.0.0] - 2025-03-21
+
+## Improvements
+
+- We have updated React Navigation to V7
+- We have updated the following additional dependencies:
+    react-native-reanimated to 3.16.1
+    react-native-screens to 4.4.0
+    react-native-image-picker to 7.2.3
+    @react-native-community/netinfo to 11.4.1
+- We're now using @gorhom/bottom-sheet for bottom sheet implementation
+- We have added the option to enable or disable cookie encryption for Android devices.
+
+## [12.0.1] - 2025-03-10
+
+## Fixes
+
+- We resolved an issue where changing the system font scale could cause crashes on Android.
+
+## [12.0.0] - 2025-01-25
+
+## Fixes
+
+- We resolved an issue with the bundle identifier in the Dev scheme on Xcode.
+- We have upgraded `@mendix/native` to 8.0.1
+
+## Improvements
+
+- We have changed Offline Database Management Backend to op-sqlite. The native apps need to be rebuilt via Studio Pro (App -> Build Native Mobile App).
+
+## [11.0.2] - 2025-01-13
+
+## Fixes
+
+- We have resolved an issue where remote JavaScript debugging failed in a custom-built Mendix Native Developer App, leading to crashes when enabling “Remote JS Debugging.” The problem was caused by Firebase services not being initialized properly during the build process. We have ensured that Firebase dependencies are now only included when explicitly required by the application
+
+## [11.0.1] - 2025-01-7
+
+## Fixes
 
 - We have updated the AppCenter's Xcode version to 15.4.
+- We added a parameter to Xcode configs to fix Bundle Identifier issues.
 
-# [7.0.22] - 2025-01-03
+## [11.0.0] - 2024-12-18
 
-- We have updated the implementation of the registerReceiver method to align with Android SDK 34 and above.
+## Fixes
 
-# [7.0.20] - 2024-12-23
+- We've removed the support for JSC entirely from Studio Pro version 10.18 and up. All native apps are using Hermes JS engine now. The native apps need to be rebuilt via Studio Pro (App -> Build Native Mobile App).
 
-- We have updated min sdk to 23 on android.
+## [10.0.0] - 2024-11-27
 
-# [7.0.19] - 2024-10-01
+## Fixes
 
-- We have updated `react-native-permissions` to version `3.6.1`.
+- We've upgraded the core framework to React Native 0.75.4 to enhance performance, stability, and compatibility across both Android and iOS platforms.
 
-# [7.0.17] - 2024-09-03
+## [9.0.3] - 2024-10-02
 
+## Fixes
+
+- We upgraded android SDK version to 35
+- We have updated `react-native-permissions` to version 4.1.5
+
+## [9.0.1] - 2024-09-03
+
+## Fixes
+
+- We have upgraded `react-native-video` to 6.4.5
 - We have fixed OTA updates compatibility issues on iOS 18.
 
-# [7.0.16] - 2024-08-29
+## [9.0.0] - 2024-07-12
 
-- We've resolved a build error related to Flipper on Xcode 15.3.
+### Added
 
-# [7.0.15] - 2024-08-1
+- We have upgrade react-native to version 0.73.8.
 
-- Upgraded buildToolsVersion, compileSdkVersion, and targetSdkVersion to 34 for Android.
+## [8.2.5] - 2024-07-05
 
-# [7.0.14] - 2024-06-28
+## Fixes
 
-- We enhanced encrypted file sync on Android.
+- We have updated the @mendix/native dependency to fix the encryption issue.
 
-# [7.0.13] - 2024-06-05
+## [8.2.3] - 2024-06-07
 
-- We enhanced encrypted file sync on Android.
+## Fixes
 
-# [7.0.12] - 2024-05-27
+- We have upgraded `@mendix/native` to 3.1.5
 
+## [8.2.2] - 2024-05-29
+
+## Fixes
+
+- We have upgraded `react-native-gesture-handler` to 2.16.2
+- We have upgraded `@mendix/native` to 3.1.4
+
+## [8.2.1] - 2024-05-27
+
+## Fixes
+
+- We have removed Flipper from iOS Podfile
 - We've added the support of scheduling local notifications on Android 14
 
-# [7.0.11] - 2024-05-13
+## [8.2.0] - 2024-05-17
 
-- We've made the switch to Xcode 15.1 for cloud builds (Appcenter), in response to the updated minimum iOS sdk requirements.
+## Fixes
+
+- We have upgraded React-navigation to version 6
 - We have added a basic privacy manifest to iOS.
 
-# [7.0.10] - 2024-03-15
+## [8.1.3] - 2024-05-14
 
-- We updated the Android manifest file to support opening URLs with links to websites whose apps are installed on the device.
+## Fixes
+
+- We've made the switch to Xcode 15.1 for cloud builds (Appcenter), in response to the updated minimum iOS sdk requirements.
+- We have added support for Hermes
+
+## [8.1.1] - 2024-04-24
+
+## Fixes
+
+- We have upgraded the @mendix/native dependency to the latest compatible version
+
+## [8.1.0] - 2024-04-24
+
+## Fixes
+
+- We have resolved a build error related to Flipper on Xcode 15.3.
+- We have upgraded security-crypto dependency on Android to version 1.1.0-alpha06
+- We have upgraded @mendix/react-native-sqlite-storage to version 7.1.0 and @mendix/native to the latest compatible version
+
+## [8.0.5] - 2024-04-24
+
+## Fixes
+
+- We have upgraded the @mendix/native dependency to the latest compatible version
+
+## [8.0.4] - 2024-03-29
+
+## Fixes
+
+- We have removed react-native-code-push dependency. We recommend migrating to Mendix OTA instead.
+
+## [8.0.3] - 2024-02-13
+
+### Fixed
+
+- We have removed redundant launch screen
+
+## [8.0.2] - 2024-01-18
+
+### Fixed
+
+- We have fixed issues related to building with pipelines
+
+## [8.0.1] - 2024-01-17
+
+### Fixed
+
+- We updated `react-native-vector-icons` to version `10.0.3`
+
+## [8.0.0] - 2023-12-21
+
+### Added
+
+- We have upgrade react-native to version 0.72.7
+- We have upgrade node to version 18
+- We have upgrade JAVA to version 17
 
 ## [7.0.9] - 2023-10-13
 
 ### Fixed
 
 - We fixed build errors caused by the recent XCode 15 update.
+- We have Updated androidManifest to support open url with links to websites whose apps are installed on the device.
 
 ## [7.0.8] - 2023-09-25
 
